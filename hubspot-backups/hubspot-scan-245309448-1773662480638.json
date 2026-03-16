@@ -1,0 +1,2113 @@
+{
+  "meta": {
+    "portalId": "245309448",
+    "portalName": "Hub 245309448",
+    "scannedAt": "March 16, 2026 at 11:59 AM UTC",
+    "toolVersion": "1.0.0"
+  },
+  "summary": {
+    "complexity": "medium",
+    "totalProperties": 74,
+    "totalPipelines": 1,
+    "totalCustomObjects": 2,
+    "totalAssociationLabels": 11,
+    "hasPrivateAppUsage": true
+  },
+  "properties": {
+    "contacts": [
+      {
+        "name": "aadhaar_last4__c",
+        "label": "Aadhaar Last 4 Digits",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "aadhaar_photo__c",
+        "label": "Aadhaar Photo",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "address__c",
+        "label": "Address",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "ai_tool_engagement",
+        "label": "AI tool engagement",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Tracks the AI tools a contact is engaged with to provide relevant recommendations or support.",
+        "options": [
+          {
+            "label": "Smock‑It",
+            "value": "smock_it",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "ChatBridge",
+            "value": "chatbridge",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Lumi",
+            "value": "lumi",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "annual_contract_value",
+        "label": "Annual Contract Value",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "currentgenerators__c",
+        "label": "Current Generator(s)",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "customer_tier",
+        "label": "Customer Tier",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Gold",
+            "value": "Gold",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Silver",
+            "value": "Silver",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Bronze",
+            "value": "Bronze",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Prospect",
+            "value": "Prospect",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "dob__c",
+        "label": "Date of Birth",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "external_id__c",
+        "label": "External Id",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "gender__c",
+        "label": "Gender",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Male",
+            "value": "M",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Female",
+            "value": "F",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "job_role",
+        "label": "Job Role",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Sales",
+            "value": "Sales",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Marketing",
+            "value": "Marketing",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Manager",
+            "value": "Manager",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Other",
+            "value": "Other",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "languages__c",
+        "label": "Languages",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "last_project_review_date",
+        "label": "Last Project Review Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "leadsource",
+        "label": "Lead Source",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Web",
+            "value": "Web",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Phone Inquiry",
+            "value": "Phone Inquiry",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Partner Referral",
+            "value": "Partner Referral",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Purchased List",
+            "value": "Purchased List",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          },
+          {
+            "label": "Other",
+            "value": "Other",
+            "description": "",
+            "displayOrder": 4,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "leadstatus",
+        "label": "Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Open - Not Contacted",
+            "value": "Open - Not Contacted",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Working - Contacted",
+            "value": "Working - Contacted",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Closed - Converted",
+            "value": "Closed - Converted",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Closed - Not Converted",
+            "value": "Closed - Not Converted",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "level__c",
+        "label": "Level",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Secondary",
+            "value": "Secondary",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Tertiary",
+            "value": "Tertiary",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Primary",
+            "value": "Primary",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "numberofemployees",
+        "label": "Employees",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "numberoflocations__c",
+        "label": "Number of Locations",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "passportid__c",
+        "label": "PassportID",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "preferred_communication_channel",
+        "label": "Preferred communication channel",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "computer_software_information",
+        "description": "Tracks the preferred communication channel of a contact for better engagement.",
+        "options": [
+          {
+            "label": "Email",
+            "value": "email",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Phone",
+            "value": "phone",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Chat",
+            "value": "chat",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "primary__c",
+        "label": "Primary",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "No",
+            "value": "No",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Yes",
+            "value": "Yes",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "productinterest__c",
+        "label": "Product Interest",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "GC1000 series",
+            "value": "GC1000 series",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "GC5000 series",
+            "value": "GC5000 series",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "GC3000 series",
+            "value": "GC3000 series",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "project_lead_email",
+        "label": "Project Lead Email",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "rating",
+        "label": "Rating",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Hot",
+            "value": "Hot",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Warm",
+            "value": "Warm",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Cold",
+            "value": "Cold",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "revenue",
+        "label": "revenue",
+        "type": "number",
+        "fieldType": "calculation_equation",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "role",
+        "label": "Role",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Differentiates contacts by their role, enabling tailored communication and service strategies.",
+        "options": [
+          {
+            "label": "Administrator",
+            "value": "administrator",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Decision maker",
+            "value": "decision_maker",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "End user",
+            "value": "end_user",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "salesforce_product_interest",
+        "label": "Salesforce product interest",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Identifies the Salesforce products a contact is interested in, aiding targeted sales efforts.",
+        "options": [
+          {
+            "label": "Sales Cloud",
+            "value": "sales_cloud",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Service Cloud",
+            "value": "service_cloud",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Marketing Cloud",
+            "value": "marketing_cloud",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Commerce Cloud",
+            "value": "commerce_cloud",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "siccode__c",
+        "label": "SIC Code",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "stripe_event_id__c",
+        "label": "Stripe Event ID",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "uniqueness_id__c",
+        "label": "Uniqueness Id",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      }
+    ],
+    "companies": [
+      {
+        "name": "active__c",
+        "label": "Active",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "No",
+            "value": "No",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Yes",
+            "value": "Yes",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "ai_insight_summary__c",
+        "label": "AI Insight Summary",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "ai_solution_portfolio",
+        "label": "AI solution portfolio",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Tracks the AI solutions offered by the company to align sales and marketing efforts.",
+        "options": [
+          {
+            "label": "Custom AI models",
+            "value": "custom_ai_models",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Integration tools",
+            "value": "integration_tools",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Data analytics",
+            "value": "data_analytics",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "credit_card_custom__c",
+        "label": "credit_card_custom",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "credit_card_number__c",
+        "label": "Credit Card Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "customerpriority__c",
+        "label": "Customer Priority",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "High",
+            "value": "High",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Low",
+            "value": "Low",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Medium",
+            "value": "Medium",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "domains_name",
+        "label": "Domains_name",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "companyinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "industry_focus",
+        "label": "Industry focus",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Identifies the industries the company specializes in to align offerings with market needs.",
+        "options": [
+          {
+            "label": "Retail",
+            "value": "retail",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Healthcare",
+            "value": "healthcare",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Finance",
+            "value": "finance",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Technology",
+            "value": "technology",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "industry_vertical",
+        "label": "Industry Vertical",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "companyinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "SaaS",
+            "value": "SaaS",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "FinTech",
+            "value": "FinTech",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Healthcare",
+            "value": "Healthcare",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Ecommerce",
+            "value": "Ecommerce",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "new18_phone_field__c",
+        "label": "New18 Phone Field",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "new19_phone_field__c",
+        "label": "New19 Phone Field",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "numberoflocations__c",
+        "label": "Number of Locations",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "partnering_isvs",
+        "label": "Partnering ISVs",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "computer_software_information",
+        "description": "Tracks the ISVs partnering with the company to streamline collaboration and resource allocation.",
+        "options": []
+      },
+      {
+        "name": "recent_activities__c",
+        "label": "Recent Activities",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "salesforce_certifications",
+        "label": "Salesforce certifications",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "computer_software_information",
+        "description": "Tracks Salesforce certifications held by the company for showcasing expertise to clients.",
+        "options": []
+      },
+      {
+        "name": "site",
+        "label": "Account Site",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "sla__c",
+        "label": "SLA",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Gold",
+            "value": "Gold",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Silver",
+            "value": "Silver",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Platinum",
+            "value": "Platinum",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Bronze",
+            "value": "Bronze",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "slaexpirationdate__c",
+        "label": "SLA Expiration Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "slaserialnumber__c",
+        "label": "SLA Serial Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "total_projects_count",
+        "label": "Total Projects Count",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "companyinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "upsellopportunity__c",
+        "label": "Upsell Opportunity",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Maybe",
+            "value": "Maybe",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "No",
+            "value": "No",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Yes",
+            "value": "Yes",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "deals": [
+      {
+        "name": "additional_meeting_scheduled__c",
+        "label": "Additional Meeting Scheduled",
+        "type": "enumeration",
+        "fieldType": "booleancheckbox",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "true",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "No",
+            "value": "false",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "currentgenerators__c",
+        "label": "Current Generator(s)",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "delivery_schedule_date__c",
+        "label": "Delivery Schedule Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "deliveryinstallationstatus__c",
+        "label": "Delivery/Installation Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "In progress",
+            "value": "In progress",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Yet to begin",
+            "value": "Yet to begin",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Completed",
+            "value": "Completed",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "expected_golive_date",
+        "label": "Expected go-live date",
+        "type": "datetime",
+        "fieldType": "date",
+        "groupName": "computer_software_information",
+        "description": "Tracks the expected go-live date for a deal to help manage project timelines effectively.",
+        "options": []
+      },
+      {
+        "name": "first_contact_made__c",
+        "label": "First Contact Made",
+        "type": "enumeration",
+        "fieldType": "booleancheckbox",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "true",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "No",
+            "value": "false",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "implementation_services",
+        "label": "Implementation services",
+        "type": "bool",
+        "fieldType": "booleancheckbox",
+        "groupName": "computer_software_information",
+        "description": "Tracks whether implementation services are included in a deal, ensuring proper resource allocation.",
+        "options": [
+          {
+            "label": "True",
+            "value": "true",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "False",
+            "value": "false",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "maincompetitors__c",
+        "label": "Main Competitor(s)",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "number_of_userslicenses",
+        "label": "Number of users/licenses",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "computer_software_information",
+        "description": "Tracks the number of users or licenses associated with a deal, aiding in pricing and planning.",
+        "options": []
+      },
+      {
+        "name": "ordernumber__c",
+        "label": "Order Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "subscription_terms",
+        "label": "Subscription terms",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "computer_software_information",
+        "description": "Tracks the cadence of subscription for a deal, essential for revenue forecasting.",
+        "options": [
+          {
+            "label": "Monthly",
+            "value": "monthly",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Annual",
+            "value": "annual",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Multi-year",
+            "value": "multi_year",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "trackingnumber__c",
+        "label": "Tracking Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": []
+      }
+    ],
+    "tags": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "tags_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "tag_name",
+        "label": "Tag name",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "tags_information",
+        "description": "",
+        "options": []
+      }
+    ],
+    "projecttasks": [
+      {
+        "name": "assigned_contact",
+        "label": "Assigned Contact",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "associated_company",
+        "label": "Associated Company",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "budget",
+        "label": "Budget",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "end_date",
+        "label": "End Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [
+          {
+            "label": "Low",
+            "value": "Low",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Medium",
+            "value": "Medium",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "High",
+            "value": "High",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Critical",
+            "value": "Critical",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "project_description",
+        "label": "Project Description",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "project_task_name",
+        "label": "Project Task Name",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "start_date",
+        "label": "Start Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": []
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [
+          {
+            "label": "Not Started",
+            "value": "Not Started",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "In Progress",
+            "value": "In Progress",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Review",
+            "value": "Review",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Completed",
+            "value": "Completed",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          },
+          {
+            "label": "On Hold",
+            "value": "On Hold",
+            "description": "",
+            "displayOrder": 4,
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "propertyGroups": {
+    "contacts": [
+      {
+        "name": "contact_activity",
+        "label": "Contact activity",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "order_information",
+        "label": "Order Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "sales_properties",
+        "label": "Sales properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "calculated_contact_information",
+        "label": "Calculated Contact Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "contact_information",
+        "label": "Contact information",
+        "displayOrder": 0
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 0
+      },
+      {
+        "name": "social_media_information",
+        "label": "Social media information",
+        "displayOrder": 0
+      },
+      {
+        "name": "web_analytics_history",
+        "label": "Web analytics history",
+        "displayOrder": 0
+      },
+      {
+        "name": "conversion_information",
+        "label": "Conversion information",
+        "displayOrder": 0
+      },
+      {
+        "name": "email_information",
+        "label": "Email information",
+        "displayOrder": 0
+      },
+      {
+        "name": "facebook_ads_properties",
+        "label": "Facebook Ads properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "contact_lifecycle_stage_properties",
+        "label": "Contact Lifecycle Stage Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "sms_information",
+        "label": "SMS information",
+        "displayOrder": 0
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "salesforce_information",
+        "label": "Salesforce Information",
+        "displayOrder": 0
+      }
+    ],
+    "companies": [
+      {
+        "name": "company_activity",
+        "label": "Company activity",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "sales_properties",
+        "label": "Sales properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "buyer_intent",
+        "label": "Buyer Intent",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_signals",
+        "label": "Company Signals",
+        "displayOrder": 0
+      },
+      {
+        "name": "prospecting_agent",
+        "label": "Prospecting Agent",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_information",
+        "label": "Company information",
+        "displayOrder": 0
+      },
+      {
+        "name": "social_media_information",
+        "label": "Social media information",
+        "displayOrder": 0
+      },
+      {
+        "name": "web_analytics_history",
+        "label": "Web analytics history",
+        "displayOrder": 0
+      },
+      {
+        "name": "conversion_information",
+        "label": "Conversion information",
+        "displayOrder": 0
+      },
+      {
+        "name": "target_accounts_information",
+        "label": "Target accounts information",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_lifecycle_stage_properties",
+        "label": "Company lifecycle stage properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "salesforce_information",
+        "label": "Salesforce Information",
+        "displayOrder": 0
+      }
+    ],
+    "deals": [
+      {
+        "name": "deal_activity",
+        "label": "Deal activity",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_revenue",
+        "label": "Deal revenue",
+        "displayOrder": 0
+      },
+      {
+        "name": "calculated_deal_information",
+        "label": "Calculated Deal Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "historical_properties",
+        "label": "Historical Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 0
+      },
+      {
+        "name": "predictive_deal_score_feature_properties",
+        "label": "Predictive Deal Score Feature Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "analytics_history",
+        "label": "Analytics history",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_stage_properties",
+        "label": "Deal Stage Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "salesforce_information",
+        "label": "Salesforce Information",
+        "displayOrder": 0
+      }
+    ]
+  },
+  "pipelines": {
+    "deals": [
+      {
+        "id": "deals_sales_pipeline",
+        "label": "Sales Pipeline",
+        "displayOrder": 0,
+        "stages": [
+          {
+            "id": "appointmentscheduled",
+            "label": "Appointment Scheduled",
+            "displayOrder": 0
+          },
+          {
+            "id": "qualifiedtobuy",
+            "label": "Qualified To Buy",
+            "displayOrder": 1
+          },
+          {
+            "id": "presentationscheduled",
+            "label": "Presentation Scheduled",
+            "displayOrder": 2
+          },
+          {
+            "id": "decisionmakerboughtin",
+            "label": "Decision Maker Bought-In",
+            "displayOrder": 3
+          },
+          {
+            "id": "contractsent",
+            "label": "Contract Sent",
+            "displayOrder": 4
+          },
+          {
+            "id": "closedwon",
+            "label": "Closed Won",
+            "displayOrder": 5
+          },
+          {
+            "id": "closedlost",
+            "label": "Closed Lost",
+            "displayOrder": 6
+          }
+        ]
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "id": "226595390",
+      "objectTypeId": "tags",
+      "name": "tags",
+      "labels": {
+        "singular": "tags",
+        "plural": "Tags"
+      },
+      "properties": [
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "tag_name",
+          "label": "Tag name",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "225863760",
+      "objectTypeId": "projecttasks",
+      "name": "projecttasks",
+      "labels": {
+        "singular": "projecttasks",
+        "plural": "ProjectTasks"
+      },
+      "properties": [
+        {
+          "name": "assigned_contact",
+          "label": "Assigned Contact",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "associated_company",
+          "label": "Associated Company",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "budget",
+          "label": "Budget",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "end_date",
+          "label": "End Date",
+          "type": "date",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": [
+            {
+              "label": "Low",
+              "value": "Low",
+              "description": "",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "Medium",
+              "value": "Medium",
+              "description": "",
+              "displayOrder": 1,
+              "hidden": false
+            },
+            {
+              "label": "High",
+              "value": "High",
+              "description": "",
+              "displayOrder": 2,
+              "hidden": false
+            },
+            {
+              "label": "Critical",
+              "value": "Critical",
+              "description": "",
+              "displayOrder": 3,
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "name": "project_description",
+          "label": "Project Description",
+          "type": "string",
+          "fieldType": "textarea",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "project_task_name",
+          "label": "Project Task Name",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "start_date",
+          "label": "Start Date",
+          "type": "date",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": [
+            {
+              "label": "Not Started",
+              "value": "Not Started",
+              "description": "",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "In Progress",
+              "value": "In Progress",
+              "description": "",
+              "displayOrder": 1,
+              "hidden": false
+            },
+            {
+              "label": "Review",
+              "value": "Review",
+              "description": "",
+              "displayOrder": 2,
+              "hidden": false
+            },
+            {
+              "label": "Completed",
+              "value": "Completed",
+              "description": "",
+              "displayOrder": 3,
+              "hidden": false
+            },
+            {
+              "label": "On Hold",
+              "value": "On Hold",
+              "description": "",
+              "displayOrder": 4,
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "typeId": 26,
+      "label": "Projects",
+      "category": "",
+      "fromObject": "Unknown",
+      "toObject": "Unknown"
+    },
+    {
+      "typeId": 1236,
+      "label": "Type 1236",
+      "category": "",
+      "fromObject": "Unknown",
+      "toObject": "Unknown"
+    },
+    {
+      "typeId": 25,
+      "label": "Companies",
+      "category": "",
+      "fromObject": "Unknown",
+      "toObject": "Unknown"
+    },
+    {
+      "typeId": 1237,
+      "label": "Type 1237",
+      "category": "",
+      "fromObject": "Unknown",
+      "toObject": "Unknown"
+    },
+    {
+      "typeId": 279,
+      "label": "Type 279",
+      "category": "",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 931,
+      "label": "Billing Contact",
+      "category": "",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 1,
+      "label": "Primary",
+      "category": "",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 3,
+      "label": "Type 3",
+      "category": "",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Deal",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 5,
+      "label": "Primary",
+      "category": "",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Deal",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 341,
+      "label": "Type 341",
+      "category": "",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Deal",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 16,
+      "label": "Type 16",
+      "category": "",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Ticket",
+      "toObject": "Contact"
+    }
+  ],
+  "owners": [
+    {
+      "id": "31031658",
+      "email": "saloniswami26072003@gmail.com",
+      "firstName": "",
+      "lastName": "System",
+      "archived": false
+    },
+    {
+      "id": "55123881",
+      "email": "saloniswami26072003@gmail.com",
+      "firstName": "Sales user",
+      "lastName": "1",
+      "archived": false
+    },
+    {
+      "id": "62232624",
+      "email": "epic.orgfarm@salesforce.com",
+      "firstName": "OrgFarm",
+      "lastName": "EPIC",
+      "archived": false
+    },
+    {
+      "id": "64426069",
+      "email": "noreply1+marketing@example.com",
+      "firstName": "demo0",
+      "lastName": "1",
+      "archived": false
+    },
+    {
+      "id": "86628406",
+      "email": "saloniswami26072003@gmail.com",
+      "firstName": "Saloni",
+      "lastName": "swami",
+      "archived": false
+    },
+    {
+      "id": "88779080",
+      "email": "ssaloni@concret.io",
+      "firstName": "Saloni",
+      "lastName": "Swami",
+      "archived": false
+    },
+    {
+      "id": "162905856",
+      "email": "kashish@gmail.com",
+      "firstName": "",
+      "lastName": "",
+      "archived": false
+    },
+    {
+      "id": "181750565",
+      "email": "",
+      "firstName": "",
+      "lastName": "Service Case",
+      "archived": false
+    },
+    {
+      "id": "270396039",
+      "email": "noreply@salesforce.com",
+      "firstName": "",
+      "lastName": "EinsteinServiceAgent User",
+      "archived": false
+    },
+    {
+      "id": "285054925",
+      "email": "jkritika@concret.io",
+      "firstName": "kritika",
+      "lastName": "jain",
+      "archived": false
+    },
+    {
+      "id": "367791687",
+      "email": "noreply@00dgl000006rr1kuaa",
+      "firstName": "",
+      "lastName": "Data.com Clean",
+      "archived": false
+    },
+    {
+      "id": "380883338",
+      "email": "noreply@00dgl000006rr1kuaa",
+      "firstName": "Automated",
+      "lastName": "Process",
+      "archived": false
+    },
+    {
+      "id": "466892845",
+      "email": "noreply@example.com",
+      "firstName": "Security",
+      "lastName": "User",
+      "archived": false
+    },
+    {
+      "id": "810812804",
+      "email": "noreply@salesforce.com",
+      "firstName": "",
+      "lastName": "EinsteinServiceAgent User",
+      "archived": false
+    },
+    {
+      "id": "912957770",
+      "email": "noreply@salesforce.com",
+      "firstName": "",
+      "lastName": "EinsteinServiceAgent User",
+      "archived": false
+    },
+    {
+      "id": "1096038303",
+      "email": "saloniswami26072003@gmail.com",
+      "firstName": "saloni",
+      "lastName": "swami",
+      "archived": false
+    },
+    {
+      "id": "1630903978",
+      "email": "noreply@example.com",
+      "firstName": "Integration",
+      "lastName": "User",
+      "archived": false
+    },
+    {
+      "id": "1746833920",
+      "email": "saloniswami33@gmail.com",
+      "firstName": "",
+      "lastName": "EinsteinServiceAgent User",
+      "archived": false
+    },
+    {
+      "id": "1881852467",
+      "email": "saloniswami26072003@gmail.com",
+      "firstName": "",
+      "lastName": "EinsteinServiceAgent User",
+      "archived": false
+    },
+    {
+      "id": "2085088828",
+      "email": "alijamitzvah@gmail.com",
+      "firstName": "Mishera",
+      "lastName": "ji",
+      "archived": false
+    }
+  ],
+  "landingPages": [
+    {
+      "id": "320497138392",
+      "name": "Join Our Free Webinar on CRM Analytics",
+      "state": "PUBLISHED_OR_SCHEDULED",
+      "createdAt": "2026-03-03T05:37:18.583Z",
+      "updatedAt": "2026-03-03T11:30:26.111Z"
+    }
+  ],
+  "marketingEmails": [
+    {
+      "id": "319350089438",
+      "name": "New email",
+      "state": "PUBLISHED",
+      "type": "BATCH_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-02-27T09:58:28.930Z",
+      "updatedAt": "2026-02-27T10:05:23.119Z"
+    },
+    {
+      "id": "320497164014",
+      "name": "InsightPro ",
+      "state": "PUBLISHED",
+      "type": "BATCH_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-03T05:19:30.800Z",
+      "updatedAt": "2026-03-03T05:26:41.685Z"
+    },
+    {
+      "id": "322852136643",
+      "name": "Demo Confirmation",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-10T08:21:23.275Z",
+      "updatedAt": "2026-03-10T08:23:08.618Z"
+    },
+    {
+      "id": "322852623059",
+      "name": "Welcome Email",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-10T08:32:42.260Z",
+      "updatedAt": "2026-03-10T08:34:39.861Z"
+    },
+    {
+      "id": "322869547728",
+      "name": "Reminder Email",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-10T08:41:37.411Z",
+      "updatedAt": "2026-03-10T08:42:50.925Z"
+    }
+  ],
+  "subscriptionTypes": [
+    {
+      "id": "2168056014",
+      "name": "Marketing Information",
+      "description": "Marketing offers and updates."
+    },
+    {
+      "id": "2168056020",
+      "name": "One to One",
+      "description": "One to One emails"
+    }
+  ],
+  "lists": [
+    {
+      "listId": "20",
+      "name": "Untitled spreadsheet - project (1).csv",
+      "objectTypeId": "0-1",
+      "processingType": "MANUAL",
+      "createdAt": "2026-02-26T11:04:09.770Z",
+      "updatedAt": "2026-02-26T11:04:09.770Z"
+    },
+    {
+      "listId": "21",
+      "name": "Webinar – High Intent",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-03T05:36:49.967Z",
+      "updatedAt": "2026-03-03T06:02:53.484Z"
+    },
+    {
+      "listId": "22",
+      "name": "Webinar Signups",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-03T06:08:55.248Z",
+      "updatedAt": "2026-03-03T06:08:55.248Z"
+    },
+    {
+      "listId": "23",
+      "name": "email open",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-06T05:37:05.478Z",
+      "updatedAt": "2026-03-06T05:37:05.478Z"
+    },
+    {
+      "listId": "62",
+      "name": "tag and contact",
+      "objectTypeId": "2-226595390",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-11T12:42:19.001Z",
+      "updatedAt": "2026-03-11T12:44:56.696Z"
+    },
+    {
+      "listId": "65",
+      "name": "associate",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-11T12:58:22.410Z",
+      "updatedAt": "2026-03-12T06:55:10.873Z"
+    },
+    {
+      "listId": "68",
+      "name": "contact per tag",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-12T10:51:39.454Z",
+      "updatedAt": "2026-03-12T10:51:39.454Z"
+    }
+  ]
+}
