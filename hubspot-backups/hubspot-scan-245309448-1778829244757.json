@@ -1,0 +1,4804 @@
+{
+  "meta": {
+    "portalId": "245309448",
+    "portalName": "Hub 245309448",
+    "scannedAt": "2026-05-15T07:13:54.839Z",
+    "toolVersion": "1.0.0"
+  },
+  "summary": {
+    "complexity": "medium",
+    "totalProperties": 1955,
+    "totalCustomProperties": 81,
+    "totalPipelines": 2,
+    "totalCustomObjects": 2,
+    "totalAssociationLabels": 170,
+    "hasPrivateAppUsage": true
+  },
+  "properties": {
+    "contacts": [
+      {
+        "name": "aadhaar_last4__c",
+        "label": "Aadhaar Last 4 Digits",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.812Z",
+        "updatedAt": "2026-03-11T08:46:03.812Z"
+      },
+      {
+        "name": "aadhaar_photo__c",
+        "label": "Aadhaar Photo",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:01.437Z",
+        "updatedAt": "2026-03-11T08:46:01.437Z"
+      },
+      {
+        "name": "address__c",
+        "label": "Address",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:01.299Z",
+        "updatedAt": "2026-03-11T08:46:01.299Z"
+      },
+      {
+        "name": "currentgenerators__c",
+        "label": "Current Generator(s)",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.701Z",
+        "updatedAt": "2026-03-11T08:46:03.701Z"
+      },
+      {
+        "name": "customer_tier",
+        "label": "Customer Tier",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Gold",
+            "value": "Gold",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Silver",
+            "value": "Silver",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Bronze",
+            "value": "Bronze",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Prospect",
+            "value": "Prospect",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T07:58:46.394Z",
+        "updatedAt": "2026-02-24T07:58:46.394Z"
+      },
+      {
+        "name": "dob__c",
+        "label": "Date of Birth",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.320Z",
+        "updatedAt": "2026-03-11T08:46:02.320Z"
+      },
+      {
+        "name": "external_id__c",
+        "label": "External Id",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.181Z",
+        "updatedAt": "2026-03-11T08:46:03.181Z"
+      },
+      {
+        "name": "gender__c",
+        "label": "Gender",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Male",
+            "value": "M",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Female",
+            "value": "F",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.303Z",
+        "updatedAt": "2026-03-11T08:57:52.736Z"
+      },
+      {
+        "name": "initial_zoom_webinar_attendance_average_duration",
+        "label": "Total attendance duration percentage before Attendance API migration",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "zoom",
+        "description": "This property represent contact property value 'zoom_webinar_attendance_average_duration' before migration to Attendance API",
+        "options": [],
+        "calculated": false,
+        "formField": false,
+        "createdAt": "2026-03-25T10:27:53.341Z",
+        "updatedAt": "2026-03-25T10:27:53.341Z"
+      },
+      {
+        "name": "job_role",
+        "label": "Job Role",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Sales",
+            "value": "Sales",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Marketing",
+            "value": "Marketing",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Manager",
+            "value": "Manager",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Other",
+            "value": "Other",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-03T05:53:19.463Z",
+        "updatedAt": "2026-03-03T05:53:19.463Z"
+      },
+      {
+        "name": "languages__c",
+        "label": "Languages",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.435Z",
+        "updatedAt": "2026-03-11T08:46:03.435Z"
+      },
+      {
+        "name": "last_project_review_date",
+        "label": "Last Project Review Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:00:06.452Z",
+        "updatedAt": "2026-02-24T08:00:06.452Z"
+      },
+      {
+        "name": "lead_email",
+        "label": "LEAD EMAIL",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-04-17T06:27:08.553Z",
+        "updatedAt": "2026-04-17T06:27:08.553Z"
+      },
+      {
+        "name": "leadsource",
+        "label": "Lead Source",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Web",
+            "value": "Web",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Phone Inquiry",
+            "value": "Phone Inquiry",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Partner Referral",
+            "value": "Partner Referral",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Purchased List",
+            "value": "Purchased List",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          },
+          {
+            "label": "Other",
+            "value": "Other",
+            "description": "",
+            "displayOrder": 4,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.047Z",
+        "updatedAt": "2026-03-11T08:57:52.004Z"
+      },
+      {
+        "name": "leadstatus",
+        "label": "Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Open - Not Contacted",
+            "value": "Open - Not Contacted",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Working - Contacted",
+            "value": "Working - Contacted",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Closed - Converted",
+            "value": "Closed - Converted",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Closed - Not Converted",
+            "value": "Closed - Not Converted",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          },
+          {
+            "label": "Working-Contacted",
+            "value": "Working-Contacted",
+            "description": "",
+            "displayOrder": 4,
+            "hidden": true
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.539Z",
+        "updatedAt": "2026-03-24T10:37:52.643Z"
+      },
+      {
+        "name": "level__c",
+        "label": "Level",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Secondary",
+            "value": "Secondary",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Tertiary",
+            "value": "Tertiary",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Primary",
+            "value": "Primary",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.927Z",
+        "updatedAt": "2026-03-11T08:57:52.584Z"
+      },
+      {
+        "name": "numberofemployees",
+        "label": "Employees",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.813Z",
+        "updatedAt": "2026-03-11T08:46:02.813Z"
+      },
+      {
+        "name": "numberoflocations__c",
+        "label": "Number of Locations",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.428Z",
+        "updatedAt": "2026-03-11T08:46:02.428Z"
+      },
+      {
+        "name": "passportid__c",
+        "label": "PassportID",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:01.691Z",
+        "updatedAt": "2026-03-11T08:46:01.691Z"
+      },
+      {
+        "name": "preferred_communication_channel",
+        "label": "Preferred communication channel",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "computer_software_information",
+        "description": "Tracks the preferred communication channel of a contact for better engagement.",
+        "options": [
+          {
+            "label": "Email",
+            "value": "email",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Phone",
+            "value": "phone",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Chat",
+            "value": "chat",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.344Z",
+        "updatedAt": "2026-02-24T06:16:18.344Z"
+      },
+      {
+        "name": "primary__c",
+        "label": "Primary",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "No",
+            "value": "No",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Yes",
+            "value": "Yes",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.174Z",
+        "updatedAt": "2026-03-11T08:57:52.161Z"
+      },
+      {
+        "name": "productinterest__c",
+        "label": "Product Interest",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "GC1000 series",
+            "value": "GC1000 series",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "GC5000 series",
+            "value": "GC5000 series",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "GC3000 series",
+            "value": "GC3000 series",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.558Z",
+        "updatedAt": "2026-03-11T08:57:52.880Z"
+      },
+      {
+        "name": "project_lead_email",
+        "label": "Project Lead Email",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T07:57:29.881Z",
+        "updatedAt": "2026-02-24T07:57:29.881Z"
+      },
+      {
+        "name": "rating",
+        "label": "Rating",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Hot",
+            "value": "Hot",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Warm",
+            "value": "Warm",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Cold",
+            "value": "Cold",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:02.684Z",
+        "updatedAt": "2026-03-11T08:57:52.449Z"
+      },
+      {
+        "name": "revenue",
+        "label": "revenue",
+        "type": "number",
+        "fieldType": "calculation_equation",
+        "groupName": "contactinformation",
+        "description": "",
+        "options": [],
+        "calculated": true,
+        "formField": false,
+        "createdAt": "2026-03-16T09:58:18.488Z",
+        "updatedAt": "2026-03-16T09:58:18.488Z"
+      },
+      {
+        "name": "salesforce_product_interest",
+        "label": "Salesforce product interest",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Identifies the Salesforce products a contact is interested in, aiding targeted sales efforts.",
+        "options": [
+          {
+            "label": "Sales Cloud",
+            "value": "sales_cloud",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Service Cloud",
+            "value": "service_cloud",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Marketing Cloud",
+            "value": "marketing_cloud",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Commerce Cloud",
+            "value": "commerce_cloud",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "siccode__c",
+        "label": "SIC Code",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:03.070Z",
+        "updatedAt": "2026-03-11T08:46:03.070Z"
+      },
+      {
+        "name": "stripe_event_id__c",
+        "label": "Stripe Event ID",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:01.571Z",
+        "updatedAt": "2026-03-11T08:46:01.571Z"
+      },
+      {
+        "name": "uniqueness_id__c",
+        "label": "Uniqueness Id",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:46:01.913Z",
+        "updatedAt": "2026-03-11T08:46:01.913Z"
+      },
+      {
+        "name": "zoom_webinar_attendance_average_duration",
+        "label": "Average Zoom webinar attendance duration",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "zoom",
+        "description": "The average amount of time this contact attends your Zoom webinars. 100% would mean the contact stays until the end of each Zoom webinar they attend.",
+        "options": [],
+        "calculated": false,
+        "formField": false,
+        "createdAt": "2026-03-25T10:27:53.231Z",
+        "updatedAt": "2026-03-25T10:27:53.231Z"
+      },
+      {
+        "name": "zoom_webinar_attendance_count",
+        "label": "Total number of Zoom webinars attended",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "zoom",
+        "description": "Total number of Zoom webinars this contact has attended.",
+        "options": [],
+        "calculated": false,
+        "formField": false,
+        "createdAt": "2026-03-25T10:27:53.137Z",
+        "updatedAt": "2026-03-25T10:27:53.137Z"
+      },
+      {
+        "name": "zoom_webinar_joinlink",
+        "label": "Last registered Zoom webinar",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "zoom",
+        "description": "The name of the last Zoom webinar this contact registered for. This property is updated every time they register for a new Zoom webinar.",
+        "options": [],
+        "calculated": false,
+        "formField": false,
+        "createdAt": "2026-03-25T10:27:52.929Z",
+        "updatedAt": "2026-03-25T10:27:52.929Z"
+      },
+      {
+        "name": "zoom_webinar_registration_count",
+        "label": "Total number of Zoom webinar registrations",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "zoom",
+        "description": "Total number of Zoom webinars this contact has registered for.",
+        "options": [],
+        "calculated": false,
+        "formField": false,
+        "createdAt": "2026-03-25T10:27:53.031Z",
+        "updatedAt": "2026-03-25T10:27:53.031Z"
+      }
+    ],
+    "companies": [
+      {
+        "name": "active__c",
+        "label": "Active",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "No",
+            "value": "No",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Yes",
+            "value": "Yes",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.196Z",
+        "updatedAt": "2026-03-11T08:57:49.106Z"
+      },
+      {
+        "name": "ai_insight_summary__c",
+        "label": "AI Insight Summary",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.678Z",
+        "updatedAt": "2026-03-11T08:45:56.678Z"
+      },
+      {
+        "name": "ai_solution_portfolio",
+        "label": "AI solution portfolio",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Tracks the AI solutions offered by the company to align sales and marketing efforts.",
+        "options": [
+          {
+            "label": "Custom AI models",
+            "value": "custom_ai_models",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Integration tools",
+            "value": "integration_tools",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Data analytics",
+            "value": "data_analytics",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "credit_card_custom__c",
+        "label": "credit_card_custom",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:55.105Z",
+        "updatedAt": "2026-03-11T08:45:55.105Z"
+      },
+      {
+        "name": "credit_card_number__c",
+        "label": "Credit Card Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:55.345Z",
+        "updatedAt": "2026-03-11T08:45:55.345Z"
+      },
+      {
+        "name": "customerpriority__c",
+        "label": "Customer Priority",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "High",
+            "value": "High",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Low",
+            "value": "Low",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Medium",
+            "value": "Medium",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.907Z",
+        "updatedAt": "2026-03-11T08:57:49.310Z"
+      },
+      {
+        "name": "domains_name",
+        "label": "Domains_name",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "companyinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-16T06:47:36.918Z",
+        "updatedAt": "2026-03-16T06:47:36.918Z"
+      },
+      {
+        "name": "industry_focus",
+        "label": "Industry focus",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Identifies the industries the company specializes in to align offerings with market needs.",
+        "options": [
+          {
+            "label": "Retail",
+            "value": "retail",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Healthcare",
+            "value": "healthcare",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Finance",
+            "value": "finance",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Technology",
+            "value": "technology",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "industry_vertical",
+        "label": "Industry Vertical",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "companyinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "SaaS",
+            "value": "SaaS",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "FinTech",
+            "value": "FinTech",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Healthcare",
+            "value": "Healthcare",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Ecommerce",
+            "value": "Ecommerce",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:00:40.796Z",
+        "updatedAt": "2026-02-24T08:00:40.796Z"
+      },
+      {
+        "name": "new18_phone_field__c",
+        "label": "New18 Phone Field",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.079Z",
+        "updatedAt": "2026-03-11T08:45:56.079Z"
+      },
+      {
+        "name": "new19_phone_field__c",
+        "label": "New19 Phone Field",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.798Z",
+        "updatedAt": "2026-03-11T08:45:56.798Z"
+      },
+      {
+        "name": "numberoflocations__c",
+        "label": "Number of Locations",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:55.708Z",
+        "updatedAt": "2026-03-11T08:45:55.708Z"
+      },
+      {
+        "name": "partnering_isvs",
+        "label": "Partnering ISVs",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "computer_software_information",
+        "description": "Tracks the ISVs partnering with the company to streamline collaboration and resource allocation.",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "recent_activities__c",
+        "label": "Recent Activities",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.535Z",
+        "updatedAt": "2026-03-11T08:45:56.535Z"
+      },
+      {
+        "name": "salesforce_certifications",
+        "label": "Salesforce certifications",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "computer_software_information",
+        "description": "Tracks Salesforce certifications held by the company for showcasing expertise to clients.",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "site",
+        "label": "Account Site",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.421Z",
+        "updatedAt": "2026-03-11T08:45:56.421Z"
+      },
+      {
+        "name": "sla__c",
+        "label": "SLA",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Gold",
+            "value": "Gold",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Silver",
+            "value": "Silver",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Platinum",
+            "value": "Platinum",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Bronze",
+            "value": "Bronze",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:55.599Z",
+        "updatedAt": "2026-03-11T08:57:48.789Z"
+      },
+      {
+        "name": "slaexpirationdate__c",
+        "label": "SLA Expiration Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:56.306Z",
+        "updatedAt": "2026-03-11T08:45:56.306Z"
+      },
+      {
+        "name": "slaserialnumber__c",
+        "label": "SLA Serial Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:55.479Z",
+        "updatedAt": "2026-03-11T08:45:55.479Z"
+      },
+      {
+        "name": "total_projects_count",
+        "label": "Total Projects Count",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "companyinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:01:03.247Z",
+        "updatedAt": "2026-02-24T08:01:03.247Z"
+      },
+      {
+        "name": "upsellopportunity__c",
+        "label": "Upsell Opportunity",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Maybe",
+            "value": "Maybe",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "No",
+            "value": "No",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Yes",
+            "value": "Yes",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:55.217Z",
+        "updatedAt": "2026-03-11T08:57:48.615Z"
+      }
+    ],
+    "deals": [
+      {
+        "name": "additional_meeting_scheduled__c",
+        "label": "Additional Meeting Scheduled",
+        "type": "enumeration",
+        "fieldType": "booleancheckbox",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "true",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "No",
+            "value": "false",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:51.963Z",
+        "updatedAt": "2026-03-11T08:57:46.473Z"
+      },
+      {
+        "name": "currentgenerators__c",
+        "label": "Current Generator(s)",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:52.660Z",
+        "updatedAt": "2026-03-11T08:45:52.660Z"
+      },
+      {
+        "name": "delivery_schedule_date__c",
+        "label": "Delivery Schedule Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:52.252Z",
+        "updatedAt": "2026-03-11T08:45:52.252Z"
+      },
+      {
+        "name": "deliveryinstallationstatus__c",
+        "label": "Delivery/Installation Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "In progress",
+            "value": "In progress",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Yet to begin",
+            "value": "Yet to begin",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Completed",
+            "value": "Completed",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:52.114Z",
+        "updatedAt": "2026-03-11T08:57:46.601Z"
+      },
+      {
+        "name": "expected_golive_date",
+        "label": "Expected go-live date",
+        "type": "datetime",
+        "fieldType": "date",
+        "groupName": "computer_software_information",
+        "description": "Tracks the expected go-live date for a deal to help manage project timelines effectively.",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.336Z",
+        "updatedAt": "2026-02-24T06:16:18.336Z"
+      },
+      {
+        "name": "first_contact_made__c",
+        "label": "First Contact Made",
+        "type": "enumeration",
+        "fieldType": "booleancheckbox",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [
+          {
+            "label": "Yes",
+            "value": "true",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "No",
+            "value": "false",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:52.461Z",
+        "updatedAt": "2026-03-11T08:57:46.782Z"
+      },
+      {
+        "name": "implementation_services",
+        "label": "Implementation services",
+        "type": "bool",
+        "fieldType": "booleancheckbox",
+        "groupName": "computer_software_information",
+        "description": "Tracks whether implementation services are included in a deal, ensuring proper resource allocation.",
+        "options": [
+          {
+            "label": "True",
+            "value": "true",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "False",
+            "value": "false",
+            "displayOrder": 1,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.336Z",
+        "updatedAt": "2026-02-24T06:16:18.336Z"
+      },
+      {
+        "name": "maincompetitors__c",
+        "label": "Main Competitor(s)",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:52.350Z",
+        "updatedAt": "2026-03-11T08:45:52.350Z"
+      },
+      {
+        "name": "number_of_userslicenses",
+        "label": "Number of users/licenses",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "computer_software_information",
+        "description": "Tracks the number of users or licenses associated with a deal, aiding in pricing and planning.",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.336Z",
+        "updatedAt": "2026-02-24T06:16:18.336Z"
+      },
+      {
+        "name": "ordernumber__c",
+        "label": "Order Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:51.858Z",
+        "updatedAt": "2026-03-11T08:45:51.858Z"
+      },
+      {
+        "name": "subscription_terms",
+        "label": "Subscription terms",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "computer_software_information",
+        "description": "Tracks the cadence of subscription for a deal, essential for revenue forecasting.",
+        "options": [
+          {
+            "label": "Monthly",
+            "value": "monthly",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Annual",
+            "value": "annual",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Multi-year",
+            "value": "multi_year",
+            "displayOrder": 2,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.336Z",
+        "updatedAt": "2026-02-24T06:16:18.336Z"
+      },
+      {
+        "name": "trackingnumber__c",
+        "label": "Tracking Number",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "salesforceinformation",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T08:45:52.559Z",
+        "updatedAt": "2026-03-11T08:45:52.559Z"
+      }
+    ],
+    "quotes": [],
+    "tickets": [
+      {
+        "name": "customer_satisfaction_score",
+        "label": "Customer satisfaction score",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "computer_software_information",
+        "description": "Tracks customer satisfaction scores for tickets, helping to gauge service quality.",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "issue_category",
+        "label": "Issue category",
+        "type": "enumeration",
+        "fieldType": "checkbox",
+        "groupName": "computer_software_information",
+        "description": "Categorizes customer support tickets for efficient issue tracking and resolution.",
+        "options": [
+          {
+            "label": "Bug",
+            "value": "bug",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Feature request",
+            "value": "feature_request",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "How-to",
+            "value": "how_to",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Performance",
+            "value": "performance",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "issue_severity",
+        "label": "Issue severity",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "computer_software_information",
+        "description": "Tracks the severity of a customer support ticket to prioritize resolution efforts.",
+        "options": [
+          {
+            "label": "Low",
+            "value": "low",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Medium",
+            "value": "medium",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "High",
+            "value": "high",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Critical",
+            "value": "critical",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      },
+      {
+        "name": "resolution_sla",
+        "label": "Resolution SLA",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "computer_software_information",
+        "description": "Tracks the resolution SLA (service-level agreement) in hours to measure support team performance.",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T06:16:18.345Z",
+        "updatedAt": "2026-02-24T06:16:18.345Z"
+      }
+    ],
+    "projecttasks": [
+      {
+        "name": "assigned_contact",
+        "label": "Assigned Contact",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:13:17.396Z",
+        "updatedAt": "2026-02-24T08:13:17.396Z"
+      },
+      {
+        "name": "associated_company",
+        "label": "Associated Company",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T11:42:24.324Z",
+        "updatedAt": "2026-02-24T11:42:24.324Z"
+      },
+      {
+        "name": "budget",
+        "label": "Budget",
+        "type": "number",
+        "fieldType": "number",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:40:25.512Z",
+        "updatedAt": "2026-02-24T08:45:56.762Z"
+      },
+      {
+        "name": "end_date",
+        "label": "End Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:11:55.897Z",
+        "updatedAt": "2026-02-24T08:11:55.897Z"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [
+          {
+            "label": "Low",
+            "value": "Low",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "Medium",
+            "value": "Medium",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "High",
+            "value": "High",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Critical",
+            "value": "Critical",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:14:38.846Z",
+        "updatedAt": "2026-02-24T08:14:38.846Z"
+      },
+      {
+        "name": "project_description",
+        "label": "Project Description",
+        "type": "string",
+        "fieldType": "textarea",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:39:44.473Z",
+        "updatedAt": "2026-02-24T08:39:44.473Z"
+      },
+      {
+        "name": "project_task_name",
+        "label": "Project Task Name",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:07:10.068Z",
+        "updatedAt": "2026-02-24T08:07:10.068Z"
+      },
+      {
+        "name": "start_date",
+        "label": "Start Date",
+        "type": "date",
+        "fieldType": "date",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:11:40.353Z",
+        "updatedAt": "2026-02-24T08:11:40.353Z"
+      },
+      {
+        "name": "status",
+        "label": "Status",
+        "type": "enumeration",
+        "fieldType": "select",
+        "groupName": "projecttasks_information",
+        "description": "",
+        "options": [
+          {
+            "label": "Not Started",
+            "value": "Not Started",
+            "description": "",
+            "displayOrder": 0,
+            "hidden": false
+          },
+          {
+            "label": "In Progress",
+            "value": "In Progress",
+            "description": "",
+            "displayOrder": 1,
+            "hidden": false
+          },
+          {
+            "label": "Review",
+            "value": "Review",
+            "description": "",
+            "displayOrder": 2,
+            "hidden": false
+          },
+          {
+            "label": "Completed",
+            "value": "Completed",
+            "description": "",
+            "displayOrder": 3,
+            "hidden": false
+          },
+          {
+            "label": "On Hold",
+            "value": "On Hold",
+            "description": "",
+            "displayOrder": 4,
+            "hidden": false
+          }
+        ],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-02-24T08:39:28.665Z",
+        "updatedAt": "2026-02-24T08:39:28.665Z"
+      }
+    ],
+    "tags": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "tags_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T11:17:45.424Z",
+        "updatedAt": "2026-03-11T11:17:45.424Z"
+      },
+      {
+        "name": "tag_name",
+        "label": "Tag name",
+        "type": "string",
+        "fieldType": "text",
+        "groupName": "tags_information",
+        "description": "",
+        "options": [],
+        "calculated": false,
+        "formField": true,
+        "createdAt": "2026-03-11T11:17:45.424Z",
+        "updatedAt": "2026-03-11T11:17:45.424Z"
+      }
+    ]
+  },
+  "propertyGroups": {
+    "contacts": [
+      {
+        "name": "sales_properties",
+        "label": "Sales properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 1
+      },
+      {
+        "name": "order_information",
+        "label": "Order Information",
+        "displayOrder": 2
+      },
+      {
+        "name": "contact_activity",
+        "label": "Contact activity",
+        "displayOrder": 3
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 4
+      },
+      {
+        "name": "contact_information",
+        "label": "Contact information",
+        "displayOrder": 5
+      },
+      {
+        "name": "calculated_contact_information",
+        "label": "Calculated Contact Information",
+        "displayOrder": 6
+      },
+      {
+        "name": "social_media_information",
+        "label": "Social media information",
+        "displayOrder": 7
+      },
+      {
+        "name": "web_analytics_history",
+        "label": "Web analytics history",
+        "displayOrder": 8
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 9
+      },
+      {
+        "name": "conversion_information",
+        "label": "Conversion information",
+        "displayOrder": 9
+      },
+      {
+        "name": "email_information",
+        "label": "Email information",
+        "displayOrder": 10
+      },
+      {
+        "name": "salesforce_information",
+        "label": "Salesforce Information",
+        "displayOrder": 10
+      },
+      {
+        "name": "facebook_ads_properties",
+        "label": "Facebook Ads properties",
+        "displayOrder": 11
+      },
+      {
+        "name": "zoom",
+        "label": "Zoom",
+        "displayOrder": 11
+      },
+      {
+        "name": "contact_lifecycle_stage_properties",
+        "label": "Contact Lifecycle Stage Properties",
+        "displayOrder": 12
+      },
+      {
+        "name": "new_contact_",
+        "label": "new contact ",
+        "displayOrder": 12
+      },
+      {
+        "name": "sms_information",
+        "label": "SMS information",
+        "displayOrder": 13
+      },
+      {
+        "name": "prospecting_agent_information",
+        "label": "Prospecting Agent Information",
+        "displayOrder": 14
+      }
+    ],
+    "companies": [
+      {
+        "name": "company_activity",
+        "label": "Company activity",
+        "displayOrder": -1
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": -1
+      },
+      {
+        "name": "sales_properties",
+        "label": "Sales properties",
+        "displayOrder": -1
+      },
+      {
+        "name": "buyer_intent",
+        "label": "Buyer Intent",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_signals",
+        "label": "Company Signals",
+        "displayOrder": 0
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 0
+      },
+      {
+        "name": "prospecting_agent",
+        "label": "Prospecting Agent",
+        "displayOrder": 0
+      },
+      {
+        "name": "company_information",
+        "label": "Company information",
+        "displayOrder": 1
+      },
+      {
+        "name": "social_media_information",
+        "label": "Social media information",
+        "displayOrder": 2
+      },
+      {
+        "name": "web_analytics_history",
+        "label": "Web analytics history",
+        "displayOrder": 4
+      },
+      {
+        "name": "conversion_information",
+        "label": "Conversion information",
+        "displayOrder": 5
+      },
+      {
+        "name": "target_accounts_information",
+        "label": "Target accounts information",
+        "displayOrder": 6
+      },
+      {
+        "name": "company_lifecycle_stage_properties",
+        "label": "Company lifecycle stage properties",
+        "displayOrder": 7
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 8
+      },
+      {
+        "name": "salesforce_information",
+        "label": "Salesforce Information",
+        "displayOrder": 9
+      }
+    ],
+    "deals": [
+      {
+        "name": "deal_activity",
+        "label": "Deal activity",
+        "displayOrder": -1
+      },
+      {
+        "name": "deal_revenue",
+        "label": "Deal revenue",
+        "displayOrder": -1
+      },
+      {
+        "name": "calculated_deal_information",
+        "label": "Calculated Deal Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal information",
+        "displayOrder": 0
+      },
+      {
+        "name": "historical_properties",
+        "label": "Historical Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "multi_account_management",
+        "label": "Multi Account Management",
+        "displayOrder": 0
+      },
+      {
+        "name": "predictive_deal_score_feature_properties",
+        "label": "Predictive Deal Score Feature Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "analytics_history",
+        "label": "Analytics history",
+        "displayOrder": 1
+      },
+      {
+        "name": "deal_stage_properties",
+        "label": "Deal Stage Properties",
+        "displayOrder": 2
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 3
+      },
+      {
+        "name": "salesforce_information",
+        "label": "Salesforce Information",
+        "displayOrder": 4
+      }
+    ],
+    "tickets": [
+      {
+        "name": "ticket_activity",
+        "label": "Ticket activity",
+        "displayOrder": -1
+      },
+      {
+        "name": "ticket_ai_enrichment",
+        "label": "Ticket AI Enrichment",
+        "displayOrder": 0
+      },
+      {
+        "name": "ticket_stage_properties",
+        "label": "Ticket Stage Properties",
+        "displayOrder": 0
+      },
+      {
+        "name": "ticket_information",
+        "label": "Ticket information",
+        "displayOrder": 0
+      },
+      {
+        "name": "computer_software_information",
+        "label": "Computer Software Information",
+        "displayOrder": 1
+      }
+    ],
+    "quotes": [
+      {
+        "name": "quote_information",
+        "label": "Quote information",
+        "displayOrder": 0
+      },
+      {
+        "name": "sender_information",
+        "label": "Sender information",
+        "displayOrder": 1
+      },
+      {
+        "name": "sender_company_information",
+        "label": "Sender company information",
+        "displayOrder": 2
+      },
+      {
+        "name": "quote_tracking_information",
+        "label": "Quote Tracking Information",
+        "displayOrder": 3
+      },
+      {
+        "name": "quote_reminders_information",
+        "label": "Quote reminders information",
+        "displayOrder": 4
+      },
+      {
+        "name": "deal_information",
+        "label": "Deal Information",
+        "displayOrder": 6
+      }
+    ],
+    "products": [
+      {
+        "name": "product_information",
+        "label": "Product information",
+        "displayOrder": 0
+      },
+      {
+        "name": "price",
+        "label": "Price",
+        "displayOrder": 1
+      },
+      {
+        "name": "product_line_item_information",
+        "label": "Product line item information",
+        "displayOrder": 1
+      },
+      {
+        "name": "multi_currency_prices",
+        "label": "Multi currency prices",
+        "displayOrder": 2
+      },
+      {
+        "name": "billing",
+        "label": "Billing",
+        "displayOrder": 3
+      }
+    ],
+    "line_items": [
+      {
+        "name": "line_item_information",
+        "label": "Line item information",
+        "displayOrder": 0
+      },
+      {
+        "name": "line_item_product_information",
+        "label": "Line item product information",
+        "displayOrder": 1
+      },
+      {
+        "name": "line_item_quote_information",
+        "label": "Line item quote information",
+        "displayOrder": 2
+      },
+      {
+        "name": "price",
+        "label": "Price",
+        "displayOrder": 3
+      },
+      {
+        "name": "billing",
+        "label": "Billing",
+        "displayOrder": 4
+      },
+      {
+        "name": "multi_currency_prices",
+        "label": "Multi currency prices",
+        "displayOrder": 5
+      },
+      {
+        "name": "product_line_item_information",
+        "label": "Product line item information",
+        "displayOrder": 6
+      },
+      {
+        "name": "bundle_information",
+        "label": "Bundle information",
+        "displayOrder": 7
+      }
+    ],
+    "orders": [
+      {
+        "name": "order",
+        "label": "Order",
+        "displayOrder": 0
+      },
+      {
+        "name": "order_revenue",
+        "label": "Order revenue",
+        "displayOrder": 1
+      }
+    ],
+    "invoices": [
+      {
+        "name": "invoice_information",
+        "label": "Invoice information",
+        "displayOrder": 1
+      }
+    ],
+    "payments": [
+      {
+        "name": "payment_information",
+        "label": "Payment information",
+        "displayOrder": 0
+      }
+    ],
+    "projecttasks": [
+      {
+        "name": "projecttask_information",
+        "label": "ProjectTask Information",
+        "displayOrder": 0
+      }
+    ],
+    "tags": [
+      {
+        "name": "tag_information",
+        "label": "Tag Information",
+        "displayOrder": 0
+      },
+      {
+        "name": "new_tag_group",
+        "label": "New tag group",
+        "displayOrder": 1
+      }
+    ]
+  },
+  "pipelines": {
+    "deals": [
+      {
+        "id": "default",
+        "label": "Sales Pipeline",
+        "displayOrder": 0,
+        "stages": [
+          {
+            "id": "appointmentscheduled",
+            "label": "Appointment Scheduled",
+            "displayOrder": 0,
+            "metadata": {
+              "probability": "0.2"
+            }
+          },
+          {
+            "id": "qualifiedtobuy",
+            "label": "Qualified To Buy",
+            "displayOrder": 1,
+            "metadata": {
+              "probability": "0.4"
+            }
+          },
+          {
+            "id": "presentationscheduled",
+            "label": "Presentation Scheduled",
+            "displayOrder": 2,
+            "metadata": {
+              "probability": "0.6"
+            }
+          },
+          {
+            "id": "decisionmakerboughtin",
+            "label": "Decision Maker Bought-In",
+            "displayOrder": 3,
+            "metadata": {
+              "probability": "0.8"
+            }
+          },
+          {
+            "id": "contractsent",
+            "label": "Contract Sent",
+            "displayOrder": 4,
+            "metadata": {
+              "probability": "0.9"
+            }
+          },
+          {
+            "id": "closedwon",
+            "label": "Closed Won",
+            "displayOrder": 5,
+            "metadata": {
+              "probability": "1.0"
+            }
+          },
+          {
+            "id": "closedlost",
+            "label": "Closed Lost",
+            "displayOrder": 6,
+            "metadata": {
+              "probability": "0.0"
+            }
+          }
+        ]
+      }
+    ],
+    "tickets": [
+      {
+        "id": "0",
+        "label": "Support Pipeline",
+        "displayOrder": 0,
+        "stages": [
+          {
+            "id": "1",
+            "label": "New",
+            "displayOrder": 0,
+            "metadata": {
+              "ticketState": "OPEN"
+            }
+          },
+          {
+            "id": "2",
+            "label": "Waiting on contact",
+            "displayOrder": 1,
+            "metadata": {
+              "ticketState": "OPEN"
+            }
+          },
+          {
+            "id": "3",
+            "label": "Waiting on us",
+            "displayOrder": 2,
+            "metadata": {
+              "ticketState": "OPEN"
+            }
+          },
+          {
+            "id": "4",
+            "label": "Closed",
+            "displayOrder": 3,
+            "metadata": {
+              "ticketState": "CLOSED"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "id": "225863760",
+      "objectTypeId": "projecttasks",
+      "name": "projecttasks",
+      "labels": {
+        "singular": "projecttasks",
+        "plural": "ProjectTasks"
+      },
+      "properties": [
+        {
+          "name": "assigned_contact",
+          "label": "Assigned Contact",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "associated_company",
+          "label": "Associated Company",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "budget",
+          "label": "Budget",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "end_date",
+          "label": "End Date",
+          "type": "date",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "hs_all_accessible_team_ids",
+          "label": "All teams",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_all_assigned_business_unit_ids",
+          "label": "Business units",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The business units this record is assigned to.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_all_owner_ids",
+          "label": "All owner IDs",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "Values of all default and custom owner properties for this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_all_team_ids",
+          "label": "All team IDs",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The team IDs of all default and custom owner properties for this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_created_by_user_id",
+          "label": "Created by user ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "The user who created this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_createdate",
+          "label": "Object create date/time",
+          "type": "datetime",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_lastmodifieddate",
+          "label": "Object last modified date/time",
+          "type": "datetime",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "Most recent timestamp of any property update for this object. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_merged_object_ids",
+          "label": "Merged record IDs",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_id",
+          "label": "Record ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source",
+          "label": "Record creation source",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_detail_1",
+          "label": "Record source detail 1",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "First level of detail on how this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_detail_2",
+          "label": "Record source detail 2",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "Second level of detail on how this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_detail_3",
+          "label": "Record source detail 3",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "Third level of detail on how this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_id",
+          "label": "Record creation source ID",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_label",
+          "label": "Record source",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "How this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_user_id",
+          "label": "Record creation source user ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "Raw internal userId present in the RequestMeta when this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_owning_teams",
+          "label": "Owning Teams",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The teams that are attributed to this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_pinned_engagement_id",
+          "label": "Pinned Engagement ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_read_only",
+          "label": "Read only object",
+          "type": "bool",
+          "fieldType": "booleancheckbox",
+          "groupName": "projecttasks_information",
+          "description": "Determines whether a record can be edited by a user.",
+          "options": [
+            {
+              "label": "True",
+              "value": "true",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "False",
+              "value": "false",
+              "displayOrder": 1,
+              "hidden": false
+            }
+          ],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_shared_team_ids",
+          "label": "Shared teams",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_shared_user_ids",
+          "label": "Shared users",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_unique_creation_key",
+          "label": "Unique creation key",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "Unique property used for idempotent creates",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_updated_by_user_id",
+          "label": "Updated by user ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "projecttasks_information",
+          "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_user_ids_of_all_notification_followers",
+          "label": "User IDs of all notification followers",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_user_ids_of_all_notification_unfollowers",
+          "label": "User IDs of all notification unfollowers",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_user_ids_of_all_owners",
+          "label": "User IDs of all owners",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "projecttasks_information",
+          "description": "The user IDs of all owners of this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_was_imported",
+          "label": "Performed in an import",
+          "type": "bool",
+          "fieldType": "booleancheckbox",
+          "groupName": "projecttasks_information",
+          "description": "Object is part of an import",
+          "options": [
+            {
+              "label": "True",
+              "value": "true",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "False",
+              "value": "false",
+              "displayOrder": 1,
+              "hidden": false
+            }
+          ],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hubspot_owner_assigneddate",
+          "label": "Owner assigned date",
+          "type": "datetime",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hubspot_owner_id",
+          "label": "Owner",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "The owner of the object.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hubspot_team_id",
+          "label": "Owner's main team",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "The main team of the record owner. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "priority",
+          "label": "Priority",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": [
+            {
+              "label": "Low",
+              "value": "Low",
+              "description": "",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "Medium",
+              "value": "Medium",
+              "description": "",
+              "displayOrder": 1,
+              "hidden": false
+            },
+            {
+              "label": "High",
+              "value": "High",
+              "description": "",
+              "displayOrder": 2,
+              "hidden": false
+            },
+            {
+              "label": "Critical",
+              "value": "Critical",
+              "description": "",
+              "displayOrder": 3,
+              "hidden": false
+            }
+          ]
+        },
+        {
+          "name": "project_description",
+          "label": "Project Description",
+          "type": "string",
+          "fieldType": "textarea",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "project_task_name",
+          "label": "Project Task Name",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "start_date",
+          "label": "Start Date",
+          "type": "date",
+          "fieldType": "date",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "projecttasks_information",
+          "description": "",
+          "options": [
+            {
+              "label": "Not Started",
+              "value": "Not Started",
+              "description": "",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "In Progress",
+              "value": "In Progress",
+              "description": "",
+              "displayOrder": 1,
+              "hidden": false
+            },
+            {
+              "label": "Review",
+              "value": "Review",
+              "description": "",
+              "displayOrder": 2,
+              "hidden": false
+            },
+            {
+              "label": "Completed",
+              "value": "Completed",
+              "description": "",
+              "displayOrder": 3,
+              "hidden": false
+            },
+            {
+              "label": "On Hold",
+              "value": "On Hold",
+              "description": "",
+              "displayOrder": 4,
+              "hidden": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "226595390",
+      "objectTypeId": "tags",
+      "name": "tags",
+      "labels": {
+        "singular": "tags",
+        "plural": "Tags"
+      },
+      "properties": [
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "",
+          "options": []
+        },
+        {
+          "name": "hs_all_accessible_team_ids",
+          "label": "All teams",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_all_assigned_business_unit_ids",
+          "label": "Business units",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The business units this record is assigned to.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_all_owner_ids",
+          "label": "All owner IDs",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "Values of all default and custom owner properties for this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_all_team_ids",
+          "label": "All team IDs",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The team IDs of all default and custom owner properties for this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_created_by_user_id",
+          "label": "Created by user ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "tags_information",
+          "description": "The user who created this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_createdate",
+          "label": "Object create date/time",
+          "type": "datetime",
+          "fieldType": "date",
+          "groupName": "tags_information",
+          "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_lastmodifieddate",
+          "label": "Object last modified date/time",
+          "type": "datetime",
+          "fieldType": "date",
+          "groupName": "tags_information",
+          "description": "Most recent timestamp of any property update for this object. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_merged_object_ids",
+          "label": "Merged record IDs",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_id",
+          "label": "Record ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "tags_information",
+          "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source",
+          "label": "Record creation source",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_detail_1",
+          "label": "Record source detail 1",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "First level of detail on how this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_detail_2",
+          "label": "Record source detail 2",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "Second level of detail on how this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_detail_3",
+          "label": "Record source detail 3",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "Third level of detail on how this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_id",
+          "label": "Record creation source ID",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_label",
+          "label": "Record source",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "tags_information",
+          "description": "How this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_object_source_user_id",
+          "label": "Record creation source user ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "tags_information",
+          "description": "Raw internal userId present in the RequestMeta when this record was created.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_owning_teams",
+          "label": "Owning Teams",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The teams that are attributed to this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_pinned_engagement_id",
+          "label": "Pinned Engagement ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "tags_information",
+          "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_read_only",
+          "label": "Read only object",
+          "type": "bool",
+          "fieldType": "booleancheckbox",
+          "groupName": "tags_information",
+          "description": "Determines whether a record can be edited by a user.",
+          "options": [
+            {
+              "label": "True",
+              "value": "true",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "False",
+              "value": "false",
+              "displayOrder": 1,
+              "hidden": false
+            }
+          ],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_shared_team_ids",
+          "label": "Shared teams",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_shared_user_ids",
+          "label": "Shared users",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_unique_creation_key",
+          "label": "Unique creation key",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "Unique property used for idempotent creates",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_updated_by_user_id",
+          "label": "Updated by user ID",
+          "type": "number",
+          "fieldType": "number",
+          "groupName": "tags_information",
+          "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_user_ids_of_all_notification_followers",
+          "label": "User IDs of all notification followers",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_user_ids_of_all_notification_unfollowers",
+          "label": "User IDs of all notification unfollowers",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_user_ids_of_all_owners",
+          "label": "User IDs of all owners",
+          "type": "enumeration",
+          "fieldType": "checkbox",
+          "groupName": "tags_information",
+          "description": "The user IDs of all owners of this record.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hs_was_imported",
+          "label": "Performed in an import",
+          "type": "bool",
+          "fieldType": "booleancheckbox",
+          "groupName": "tags_information",
+          "description": "Object is part of an import",
+          "options": [
+            {
+              "label": "True",
+              "value": "true",
+              "displayOrder": 0,
+              "hidden": false
+            },
+            {
+              "label": "False",
+              "value": "false",
+              "displayOrder": 1,
+              "hidden": false
+            }
+          ],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hubspot_owner_assigneddate",
+          "label": "Owner assigned date",
+          "type": "datetime",
+          "fieldType": "date",
+          "groupName": "tags_information",
+          "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hubspot_owner_id",
+          "label": "Owner",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "tags_information",
+          "description": "The owner of the object.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "hubspot_team_id",
+          "label": "Owner's main team",
+          "type": "enumeration",
+          "fieldType": "select",
+          "groupName": "tags_information",
+          "description": "The main team of the record owner. This value is set automatically by HubSpot.",
+          "options": [],
+          "hubspotDefined": true
+        },
+        {
+          "name": "tag_name",
+          "label": "Tag name",
+          "type": "string",
+          "fieldType": "text",
+          "groupName": "tags_information",
+          "description": "",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "typeId": 53,
+      "label": "OKK",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Contact",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 1,
+      "label": "Primary",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 56,
+      "label": "old",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 54,
+      "label": "Newest",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 931,
+      "label": "Billing Contact",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 703,
+      "label": "Contact Signer",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Contact",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 1227,
+      "label": "Billing Contact",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Contact",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 2,
+      "label": "Contact with Primary Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Company",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 55,
+      "label": "Newest",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Company",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 57,
+      "label": "New",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Company",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 930,
+      "label": "Billing Contact",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Company",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 14,
+      "label": "Parent Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Company",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 13,
+      "label": "Child Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Company",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 6,
+      "label": "Deal with Primary Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Company",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 25,
+      "label": "Ticket with Primary Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Company",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 72,
+      "label": "Quote with Buyer Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Company",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 1335,
+      "label": "Quotes with Billing Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Company",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 5,
+      "label": "Primary",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Deal",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 1392,
+      "label": "Primary",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Deal",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 26,
+      "label": "Primary",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Ticket",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 2541,
+      "label": "Parent",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-8",
+      "toObjectTypeId": "0-8",
+      "fromObject": "Line Item",
+      "toObject": "Line Item"
+    },
+    {
+      "typeId": 2542,
+      "label": "Child",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-8",
+      "toObjectTypeId": "0-8",
+      "fromObject": "Line Item",
+      "toObject": "Line Item"
+    },
+    {
+      "typeId": 702,
+      "label": "Contact Signer",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Quote",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 1226,
+      "label": "Billing Contact",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Quote",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 71,
+      "label": "Buyer Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Quote",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 1334,
+      "label": "Billing Company",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Quote",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 1393,
+      "label": "Deal with Primary Quote",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Quote",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 1311,
+      "label": "Links blocking task to blocked task",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Feedback Submission",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1313,
+      "label": "Links sub task to parent task",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Feedback Submission",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1310,
+      "label": "Links blocked task to blocking task",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Feedback Submission",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1312,
+      "label": "Links parent task to sub task",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Feedback Submission",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 48,
+      "label": "Interested In",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Tag",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 46,
+      "label": "Applied To",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Tag",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 50,
+      "label": "Primary For",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Tag",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 47,
+      "label": "Interest Tag",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Contact",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 49,
+      "label": "Primary Tag",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Contact",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 45,
+      "label": "Has Tag",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Contact",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 449,
+      "label": "Type 449",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Contact",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 279,
+      "label": "Type 279",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Contact",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 4,
+      "label": "Type 4",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Contact",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 15,
+      "label": "Type 15",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Contact",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 70,
+      "label": "Type 70",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Contact",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 82,
+      "label": "Type 82",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-18",
+      "fromObject": "Contact",
+      "toObject": "Communications"
+    },
+    {
+      "typeId": 97,
+      "label": "Type 97",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-19",
+      "fromObject": "Contact",
+      "toObject": "Meeting"
+    },
+    {
+      "typeId": 203,
+      "label": "Type 203",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Contact",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1184,
+      "label": "Type 1184",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Contact",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 201,
+      "label": "Type 201",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-46",
+      "fromObject": "Contact",
+      "toObject": "Order"
+    },
+    {
+      "typeId": 199,
+      "label": "Type 199",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Contact",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 193,
+      "label": "Type 193",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Contact",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 197,
+      "label": "Type 197",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "0-49",
+      "fromObject": "Contact",
+      "toObject": "Payment"
+    },
+    {
+      "typeId": 280,
+      "label": "Type 280",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Company",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 450,
+      "label": "Type 450",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Company",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 342,
+      "label": "Type 342",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Company",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 340,
+      "label": "Type 340",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Company",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 2738,
+      "label": "Type 2738",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Company",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 88,
+      "label": "Type 88",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-18",
+      "fromObject": "Company",
+      "toObject": "Communications"
+    },
+    {
+      "typeId": 929,
+      "label": "Type 929",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-19",
+      "fromObject": "Company",
+      "toObject": "Meeting"
+    },
+    {
+      "typeId": 191,
+      "label": "Type 191",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Company",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 2796,
+      "label": "Type 2796",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Company",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 189,
+      "label": "Type 189",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-46",
+      "fromObject": "Company",
+      "toObject": "Order"
+    },
+    {
+      "typeId": 187,
+      "label": "Type 187",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Company",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 181,
+      "label": "Type 181",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Company",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 185,
+      "label": "Type 185",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "0-49",
+      "fromObject": "Company",
+      "toObject": "Payment"
+    },
+    {
+      "typeId": 3,
+      "label": "Type 3",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Deal",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 341,
+      "label": "Type 341",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Deal",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 451,
+      "label": "Type 451",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Deal",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 27,
+      "label": "Type 27",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Deal",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 630,
+      "label": "Type 630",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-7",
+      "fromObject": "Deal",
+      "toObject": "Product"
+    },
+    {
+      "typeId": 19,
+      "label": "Type 19",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-8",
+      "fromObject": "Deal",
+      "toObject": "Line Item"
+    },
+    {
+      "typeId": 63,
+      "label": "Type 63",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Deal",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 86,
+      "label": "Type 86",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-18",
+      "fromObject": "Deal",
+      "toObject": "Communications"
+    },
+    {
+      "typeId": 985,
+      "label": "Type 985",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-19",
+      "fromObject": "Deal",
+      "toObject": "Meeting"
+    },
+    {
+      "typeId": 215,
+      "label": "Type 215",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Deal",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1116,
+      "label": "Type 1116",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Deal",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 213,
+      "label": "Type 213",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-46",
+      "fromObject": "Deal",
+      "toObject": "Order"
+    },
+    {
+      "typeId": 211,
+      "label": "Type 211",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Deal",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 205,
+      "label": "Type 205",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Deal",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 209,
+      "label": "Type 209",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-3",
+      "toObjectTypeId": "0-49",
+      "fromObject": "Deal",
+      "toObject": "Payment"
+    },
+    {
+      "typeId": 16,
+      "label": "Type 16",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Ticket",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 339,
+      "label": "Type 339",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Ticket",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 28,
+      "label": "Type 28",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Ticket",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 452,
+      "label": "Type 452",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Ticket",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 84,
+      "label": "Type 84",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-18",
+      "fromObject": "Ticket",
+      "toObject": "Communications"
+    },
+    {
+      "typeId": 99,
+      "label": "Type 99",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-19",
+      "fromObject": "Ticket",
+      "toObject": "Meeting"
+    },
+    {
+      "typeId": 229,
+      "label": "Type 229",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Ticket",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1084,
+      "label": "Type 1084",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Ticket",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 227,
+      "label": "Type 227",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-46",
+      "fromObject": "Ticket",
+      "toObject": "Order"
+    },
+    {
+      "typeId": 225,
+      "label": "Type 225",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Ticket",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 219,
+      "label": "Type 219",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Ticket",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 223,
+      "label": "Type 223",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-5",
+      "toObjectTypeId": "0-49",
+      "fromObject": "Ticket",
+      "toObject": "Payment"
+    },
+    {
+      "typeId": 631,
+      "label": "Type 631",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-7",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Product",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 20,
+      "label": "Type 20",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-8",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Line Item",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 2532,
+      "label": "Type 2532",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-8",
+      "toObjectTypeId": "0-8",
+      "fromObject": "Line Item",
+      "toObject": "Line Item"
+    },
+    {
+      "typeId": 68,
+      "label": "Type 68",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-8",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Line Item",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 69,
+      "label": "Type 69",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Quote",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 2739,
+      "label": "Type 2739",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Quote",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 64,
+      "label": "Type 64",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Quote",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 67,
+      "label": "Type 67",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-8",
+      "fromObject": "Quote",
+      "toObject": "Line Item"
+    },
+    {
+      "typeId": 1172,
+      "label": "Type 1172",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-19",
+      "fromObject": "Quote",
+      "toObject": "Meeting"
+    },
+    {
+      "typeId": 217,
+      "label": "Type 217",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-14",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Quote",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 81,
+      "label": "Type 81",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-18",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Communications",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 87,
+      "label": "Type 87",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-18",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Communications",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 85,
+      "label": "Type 85",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-18",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Communications",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 83,
+      "label": "Type 83",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-18",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Communications",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 98,
+      "label": "Type 98",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-19",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Meeting",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 928,
+      "label": "Type 928",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-19",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Meeting",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 984,
+      "label": "Type 984",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-19",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Meeting",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 100,
+      "label": "Type 100",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-19",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Meeting",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 1171,
+      "label": "Type 1171",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-19",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Meeting",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 1155,
+      "label": "Type 1155",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-19",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Meeting",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 204,
+      "label": "Type 204",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Feedback Submission",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 192,
+      "label": "Type 192",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Feedback Submission",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 216,
+      "label": "Type 216",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Feedback Submission",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 230,
+      "label": "Type 230",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Feedback Submission",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 218,
+      "label": "Type 218",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-14",
+      "fromObject": "Feedback Submission",
+      "toObject": "Quote"
+    },
+    {
+      "typeId": 1309,
+      "label": "Type 1309",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Feedback Submission",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 1266,
+      "label": "Type 1266",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Feedback Submission",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 1093,
+      "label": "Type 1093",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Feedback Submission",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 1183,
+      "label": "Type 1183",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Goal",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 2795,
+      "label": "Type 2795",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Goal",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 1115,
+      "label": "Type 1115",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Goal",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 1083,
+      "label": "Type 1083",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Goal",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 1265,
+      "label": "Type 1265",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Goal",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 956,
+      "label": "Type 956",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Goal",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 954,
+      "label": "Type 954",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-35",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Goal",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 202,
+      "label": "Type 202",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-46",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Order",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 190,
+      "label": "Type 190",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-46",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Order",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 214,
+      "label": "Type 214",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-46",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Order",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 228,
+      "label": "Type 228",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-46",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Order",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 200,
+      "label": "Type 200",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Shipment",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 188,
+      "label": "Type 188",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Shipment",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 212,
+      "label": "Type 212",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Shipment",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 226,
+      "label": "Type 226",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Shipment",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 1094,
+      "label": "Type 1094",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Shipment",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 957,
+      "label": "Type 957",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Shipment",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 400,
+      "label": "Type 400",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Shipment",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 1128,
+      "label": "Type 1128",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "0-49",
+      "fromObject": "Shipment",
+      "toObject": "Payment"
+    },
+    {
+      "typeId": 194,
+      "label": "Type 194",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Invoice",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 182,
+      "label": "Type 182",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Invoice",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 206,
+      "label": "Type 206",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Invoice",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 220,
+      "label": "Type 220",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Invoice",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 1156,
+      "label": "Type 1156",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-19",
+      "fromObject": "Invoice",
+      "toObject": "Meeting"
+    },
+    {
+      "typeId": 955,
+      "label": "Type 955",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-35",
+      "fromObject": "Invoice",
+      "toObject": "Goal"
+    },
+    {
+      "typeId": 399,
+      "label": "Type 399",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Invoice",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 1032,
+      "label": "Type 1032",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-48",
+      "toObjectTypeId": "0-48",
+      "fromObject": "Invoice",
+      "toObject": "Invoice"
+    },
+    {
+      "typeId": 198,
+      "label": "Type 198",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-49",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Payment",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 186,
+      "label": "Type 186",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-49",
+      "toObjectTypeId": "0-2",
+      "fromObject": "Payment",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 210,
+      "label": "Type 210",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-49",
+      "toObjectTypeId": "0-3",
+      "fromObject": "Payment",
+      "toObject": "Deal"
+    },
+    {
+      "typeId": 224,
+      "label": "Type 224",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-49",
+      "toObjectTypeId": "0-5",
+      "fromObject": "Payment",
+      "toObject": "Ticket"
+    },
+    {
+      "typeId": 1127,
+      "label": "Type 1127",
+      "category": "HUBSPOT_DEFINED",
+      "fromObjectTypeId": "0-49",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Payment",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 18,
+      "label": "Type 18",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-225863760",
+      "toObjectTypeId": "0-2",
+      "fromObject": "ProjectTask",
+      "toObject": "Company"
+    },
+    {
+      "typeId": 17,
+      "label": "Type 17",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-2",
+      "toObjectTypeId": "2-225863760",
+      "fromObject": "Company",
+      "toObject": "ProjectTask"
+    },
+    {
+      "typeId": 9,
+      "label": "Type 9",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-225863760",
+      "toObjectTypeId": "0-18",
+      "fromObject": "ProjectTask",
+      "toObject": "Communications"
+    },
+    {
+      "typeId": 10,
+      "label": "Type 10",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-18",
+      "toObjectTypeId": "2-225863760",
+      "fromObject": "Communications",
+      "toObject": "ProjectTask"
+    },
+    {
+      "typeId": 7,
+      "label": "Type 7",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-225863760",
+      "toObjectTypeId": "0-27",
+      "fromObject": "ProjectTask",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 8,
+      "label": "Type 8",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "2-225863760",
+      "fromObject": "Feedback Submission",
+      "toObject": "ProjectTask"
+    },
+    {
+      "typeId": 11,
+      "label": "Type 11",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-225863760",
+      "toObjectTypeId": "0-46",
+      "fromObject": "ProjectTask",
+      "toObject": "Order"
+    },
+    {
+      "typeId": 12,
+      "label": "Type 12",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-46",
+      "toObjectTypeId": "2-225863760",
+      "fromObject": "Order",
+      "toObject": "ProjectTask"
+    },
+    {
+      "typeId": 43,
+      "label": "Type 43",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-1",
+      "fromObject": "Tag",
+      "toObject": "Contact"
+    },
+    {
+      "typeId": 44,
+      "label": "Type 44",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-1",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Contact",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 35,
+      "label": "Type 35",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-18",
+      "fromObject": "Tag",
+      "toObject": "Communications"
+    },
+    {
+      "typeId": 36,
+      "label": "Type 36",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-18",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Communications",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 31,
+      "label": "Type 31",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-27",
+      "fromObject": "Tag",
+      "toObject": "Feedback Submission"
+    },
+    {
+      "typeId": 32,
+      "label": "Type 32",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-27",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Feedback Submission",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 33,
+      "label": "Type 33",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-46",
+      "fromObject": "Tag",
+      "toObject": "Order"
+    },
+    {
+      "typeId": 34,
+      "label": "Type 34",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-46",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Order",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 37,
+      "label": "Type 37",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-47",
+      "fromObject": "Tag",
+      "toObject": "Shipment"
+    },
+    {
+      "typeId": 38,
+      "label": "Type 38",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-47",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Shipment",
+      "toObject": "Tag"
+    },
+    {
+      "typeId": 41,
+      "label": "Type 41",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "2-226595390",
+      "toObjectTypeId": "0-49",
+      "fromObject": "Tag",
+      "toObject": "Payment"
+    },
+    {
+      "typeId": 42,
+      "label": "Type 42",
+      "category": "USER_DEFINED",
+      "fromObjectTypeId": "0-49",
+      "toObjectTypeId": "2-226595390",
+      "fromObject": "Payment",
+      "toObject": "Tag"
+    }
+  ],
+  "forms": [
+    {
+      "id": "06ca7695-0c14-4ee5-94eb-d82e0aa1bbeb",
+      "name": "New event registration form (February 27, 2026 5:06:38 AM EST)",
+      "formType": "hubspot",
+      "createdAt": "2026-02-27T10:06:38.859Z",
+      "updatedAt": "2026-02-27T10:08:49.390Z",
+      "archived": false,
+      "fieldCount": 7
+    },
+    {
+      "id": "48cc6440-c97f-406f-8e8f-150746c623c5",
+      "name": "Demo Request Form",
+      "formType": "hubspot",
+      "createdAt": "2026-03-03T05:51:08.512Z",
+      "updatedAt": "2026-04-21T15:31:06.353Z",
+      "archived": false,
+      "fieldCount": 5
+    },
+    {
+      "id": "918c1b91-29d0-4434-8e60-efeaa5b3d25a",
+      "name": "New blank form (March 18, 2026 3:19:18 AM EDT)",
+      "formType": "hubspot",
+      "createdAt": "2026-03-18T07:19:18.710Z",
+      "updatedAt": "2026-03-18T07:19:18.710Z",
+      "archived": false,
+      "fieldCount": 3
+    }
+  ],
+  "owners": [
+    {
+      "id": "86628406",
+      "email": "saloniswami26072003@gmail.com",
+      "firstName": "Saloni",
+      "lastName": "swami",
+      "archived": false
+    },
+    {
+      "id": "88779080",
+      "email": "ssaloni@concret.io",
+      "firstName": "Saloni",
+      "lastName": "Swami",
+      "archived": false
+    },
+    {
+      "id": "1746833920",
+      "email": "saloniswami33@gmail.com",
+      "firstName": "Saloni",
+      "lastName": "n/a",
+      "archived": false
+    }
+  ],
+  "landingPages": [
+    {
+      "id": "320497138392",
+      "name": "Join Our Free Webinar on CRM Analytics",
+      "state": "PUBLISHED_OR_SCHEDULED",
+      "createdAt": "2026-03-03T05:37:18.583Z",
+      "updatedAt": "2026-03-03T11:30:26.111Z"
+    }
+  ],
+  "marketingEmails": [
+    {
+      "id": "319350089438",
+      "name": "New email",
+      "state": "PUBLISHED",
+      "type": "BATCH_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-02-27T09:58:28.930Z",
+      "updatedAt": "2026-02-27T10:05:23.121Z"
+    },
+    {
+      "id": "320497164014",
+      "name": "InsightPro ",
+      "state": "PUBLISHED",
+      "type": "BATCH_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-03T05:19:30.800Z",
+      "updatedAt": "2026-03-03T05:26:41.687Z"
+    },
+    {
+      "id": "322852136643",
+      "name": "Demo Confirmation",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-10T08:21:23.275Z",
+      "updatedAt": "2026-03-10T08:23:08.620Z"
+    },
+    {
+      "id": "322852623059",
+      "name": "Welcome Email",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-10T08:32:42.260Z",
+      "updatedAt": "2026-03-10T08:34:39.863Z"
+    },
+    {
+      "id": "322869547728",
+      "name": "Reminder Email",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-03-10T08:41:37.411Z",
+      "updatedAt": "2026-03-10T08:42:50.927Z"
+    },
+    {
+      "id": "331693477580",
+      "name": "automation email",
+      "state": "AUTOMATED",
+      "type": "AUTOMATED_EMAIL",
+      "isPublished": true,
+      "createdAt": "2026-04-06T02:48:02.460Z",
+      "updatedAt": "2026-04-06T03:25:35.816Z"
+    }
+  ],
+  "subscriptionTypes": [
+    {
+      "id": "2168056014",
+      "name": "Marketing Information",
+      "description": "Marketing offers and updates."
+    },
+    {
+      "id": "2168056020",
+      "name": "One to One",
+      "description": "One to One emails"
+    }
+  ],
+  "lists": [
+    {
+      "listId": "20",
+      "name": "Untitled spreadsheet - project (1).csv",
+      "objectTypeId": "0-1",
+      "processingType": "MANUAL",
+      "createdAt": "2026-02-26T11:04:09.770Z",
+      "updatedAt": "2026-02-26T11:04:09.770Z"
+    },
+    {
+      "listId": "21",
+      "name": "Webinar – High Intent",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-03T05:36:49.967Z",
+      "updatedAt": "2026-03-03T06:02:53.484Z"
+    },
+    {
+      "listId": "22",
+      "name": "Webinar Signups",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-03T06:08:55.248Z",
+      "updatedAt": "2026-03-03T06:08:55.248Z"
+    },
+    {
+      "listId": "23",
+      "name": "email open",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-06T05:37:05.478Z",
+      "updatedAt": "2026-03-06T05:37:05.478Z"
+    },
+    {
+      "listId": "62",
+      "name": "tag and contact",
+      "objectTypeId": "2-226595390",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-11T12:42:19.001Z",
+      "updatedAt": "2026-03-11T12:44:56.696Z"
+    },
+    {
+      "listId": "65",
+      "name": "associate",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-11T12:58:22.410Z",
+      "updatedAt": "2026-03-12T06:55:10.873Z"
+    },
+    {
+      "listId": "68",
+      "name": "contact per tag",
+      "objectTypeId": "0-1",
+      "processingType": "DYNAMIC",
+      "createdAt": "2026-03-12T10:51:39.454Z",
+      "updatedAt": "2026-03-12T10:51:39.454Z"
+    }
+  ],
+  "blogs": {
+    "totalBlogs": 0,
+    "totalPosts": 1,
+    "details": [
+      {
+        "id": "327077031664",
+        "title": "Your Blog Post Title Here...",
+        "state": "DRAFT",
+        "slug": "blog/-temporary-slug-ff49d414-86e8-4d68-942c-68fb541c1eb0",
+        "authorName": "Saloni Swami",
+        "publishDate": "1970-01-01T00:00:00Z",
+        "createdAt": "2026-03-23T07:49:30.015Z",
+        "updatedAt": "2026-03-23T07:49:30.015Z"
+      }
+    ]
+  }
+}
